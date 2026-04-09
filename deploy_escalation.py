@@ -111,7 +111,7 @@ class DecisionEngine:
         faith, rel, ctx, sentiment = features
 
         # Rule-based override
-        if faith < 0.7 or rel < 0.7 or sentiment < -0.5:
+        if faith < 0.5 or rel < 0.5 or sentiment < -0.5:
             return "ESCALATE", 1.0
 
         # Model-based
@@ -201,7 +201,7 @@ if __name__ == "__main__":
 
     pipeline = FullPipeline()
 
-    query = "My order is not delivered and I am very angry!"
+    query = "In how many days can I return an item?"
 
     result = pipeline.run(query)
 
