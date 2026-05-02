@@ -1,0 +1,12 @@
+    huggingface_hub>=0.23.0;
+    langchain;
+    langchain-community;
+    langchain-core;
+    langchain-huggingface;
+    sentence-transformers; 
+    faiss-cpu;
+    pypdf;
+    python-dotenv;
+    spacy;
+    ragas; 
+    transformers;

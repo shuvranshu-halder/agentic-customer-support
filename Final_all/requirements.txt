@@ -1,0 +1,16 @@
+langchain
+langchain-community
+langchain-text-splitters
+faiss-cpu
+sentence-transformers==2.6.1
+accelerate
+numpy==1.26.4
+# for kg
+spacy
+#for ragas evaluation
+datasets
+#deepeval metrics
+deepeval
+# ollama
+#Rankrag
+heapq

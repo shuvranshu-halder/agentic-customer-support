@@ -1,0 +1,4 @@
+.env
+Final_all/qwen_lora_adapter
+Final_all/models--meta-llama--Llama-3.1-8B
+Final_all/faiss_index
