@@ -11,7 +11,7 @@ query resolution — and intelligently hand off to humans when needed.
 
 ## Architecture
 
-![workflow](workflow.png)
+![workflow](assets/workflow.png)
 
 ---
 
