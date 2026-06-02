@@ -24,7 +24,6 @@ query resolution — and intelligently hand off to humans when needed.
 - Routing logic:
   - `billing/account/shipping/order` → Tool Agent
   - `technical/complaint` → RAG Pipeline
-  - confidence < 0.6 → RAG fallback
 - **Result:** 65% validation accuracy (+23pp over zero-shot baseline)
 
 ### 2. RAG Pipeline
