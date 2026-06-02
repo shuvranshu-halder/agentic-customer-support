@@ -11,25 +11,7 @@ query resolution — and intelligently hand off to humans when needed.
 
 ## Architecture
 
-The system is composed of five core modules:
-User Query
-│
-▼
-Intent Classifier (Qwen-2.5-3B + LoRA)
-│
-├──► Tool Agent         (billing, account, shipping, order)
-│
-└──► RAG Pipeline       (technical, complaint, low-confidence fallback)
-│
-├── FAISS Retrieval + Knowledge Graph
-├── Llama 3.1-8B-Instruct (Generator)
-└── Reflexion Loop (Evaluator + Query Refiner)
-│
-▼
-Sentiment Analysis (VADER)
-│
-▼
-Escalation Engine ──► Human Agent / Autonomous Response
+![workflow](workflow.png)
 
 ---
 
