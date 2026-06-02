@@ -11,7 +11,11 @@ query resolution — and intelligently hand off to humans when needed.
 
 ## Architecture
 
-![workflow](assets/workflow.png)
+<p align="center">
+  <img src="assets/workflow.png" width="600" alt="Workflow"/>
+  <br/>
+  <em>Figure 1: End-to-end system workflow</em>
+</p>
 
 ---
 
